@@ -8,9 +8,11 @@ gem 'webpacker',  '4.0.7'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.4', require: false
+gem 'devise'
+gem 'pg'
+gem 'dotenv-rails'
 
 group :development, :test do
-  gem 'sqlite3', '1.4.1'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry', '0.12.2'
 end
